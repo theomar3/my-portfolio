@@ -2520,3 +2520,6 @@ body {
 #homepage-title {
   font-size: 2em;
   font-family: 'Anton', sans-serif; }
+
+a {
+  text-decoration: none; }

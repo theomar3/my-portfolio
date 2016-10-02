@@ -79,3 +79,12 @@ $socialVerticalTitle.on('click', function() {
 $socialSubHeading.mouseover(function() {
   $socialSubHeading.toggleClass('animated swing');
 });
+
+
+$aboutVerticalTitle.click(function(){
+    var self = $(this);
+    self.next().slideToggle(2000, function() {
+        window.location.href = self.attr('about.html'); // go to href after the slide animation completes
+    });
+    return false; // And also make sure you return false from your click handler.
+});

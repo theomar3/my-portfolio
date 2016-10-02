@@ -2499,7 +2499,7 @@ body {
   cursor: pointer; }
 
 .sub-heading:hover .vertical-titles {
-  color: black; }
+  color: red; }
 
 .ball {
   width: 60px;
@@ -2517,5 +2517,6 @@ body {
 .spacing-row {
   padding: 500px 20px 20px 20px; }
 
-.homepage-title {
-  font-size: 1.5em; }
+#homepage-title {
+  font-size: 2em;
+  font-family: 'Anton', sans-serif; }

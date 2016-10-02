@@ -1,0 +1,52 @@
+@import 'reset';
+@import 'css-grid';
+@import 'fancy-animations';
+
+
+.solid-horizontal-rope {
+  border-top: 3px solid black;
+}
+
+.sub-heading-row {
+  padding: 0px 5px 20px 5px;
+}
+
+
+
+.vertical-titles {
+  writing-mode: vertical-rl;
+  // text-orientation: sideways-right;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #AAA;
+  transition: all 0.8s linear;
+  font-size: 2em;
+  line-height: 1.5em;
+  border-right: 1px solid black;
+  margin-left: 50%;
+  cursor: pointer;
+}
+
+
+.sub-heading:hover  .vertical-titles {
+    color: black;
+}
+
+// .vertical-titles:hover {
+//   color: black;
+// }
+
+
+.ball {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 1.2em;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3em;
+  // margin-top: -12px;
+  margin-left: 55%;
+  cursor: pointer;
+}

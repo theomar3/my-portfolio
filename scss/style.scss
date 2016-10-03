@@ -13,9 +13,10 @@ a {
 
 // About page
 
+
 #about-background {
   background-image: url('/images/cloud-seph.jpg');
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   background-size: 40%;
 
 }
@@ -26,15 +27,14 @@ a {
 
 .left {
   float: left;
-  width: 46.5%;
+  width: 50%;
   height: 250px;
   outline: 1px solid black;
-  margin-left: 7%;
 }
 
 .right {
   float:right;
-  width: 46.5%;
+  width: 50%;
   height: 250px;
   outline: 1px solid black;
 
@@ -57,6 +57,7 @@ a {
 
 .my-pic {
   z-index: -10;
+  max-width: 100%;
 }
 
 .adjective-list-1 {
@@ -108,9 +109,24 @@ a {
   color: #696969;
 }
 
-.about-home-link:hover {
-  color: #1C00E5;
+
+
+.home-icon {
+  width: 40%;
+  opacity: 0;
+  transition: opacity 1s;
 }
+
+.about-home-link:hover + img {
+  opacity: 1;
+}
+
+.about-home-link:hover {
+  display:none;
+}
+
+
+
 
 // resume section
 

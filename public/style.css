@@ -2526,7 +2526,7 @@ a {
 
 #about-background {
   background-image: url("/images/cloud-seph.jpg");
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   background-size: 40%; }
 
 .about-section {
@@ -2534,14 +2534,13 @@ a {
 
 .left {
   float: left;
-  width: 46.5%;
+  width: 50%;
   height: 250px;
-  outline: 1px solid black;
-  margin-left: 7%; }
+  outline: 1px solid black; }
 
 .right {
   float: right;
-  width: 46.5%;
+  width: 50%;
   height: 250px;
   outline: 1px solid black; }
 
@@ -2555,7 +2554,8 @@ a {
   text-decoration: underline; }
 
 .my-pic {
-  z-index: -10; }
+  z-index: -10;
+  max-width: 100%; }
 
 .adjective-list-1 {
   font-family: 'Francois One', sans-serif;
@@ -2599,8 +2599,16 @@ a {
 .about-section-back-button a {
   color: #696969; }
 
+.home-icon {
+  width: 40%;
+  opacity: 0;
+  transition: opacity 1s; }
+
+.about-home-link:hover + img {
+  opacity: 1; }
+
 .about-home-link:hover {
-  color: #1C00E5; }
+  display: none; }
 
 #resume-background {
   background-image: url("/images/cowboy-bebop2.jpg");

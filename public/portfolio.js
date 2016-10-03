@@ -22,14 +22,28 @@ $oBall.mouseover(function() {
 $oBall.on('click', function() {
   $oBall.addClass('animated hinge');
 });
-$aboutVerticalTitle.mouseover(function() {
-  $aboutVerticalTitle.toggleClass('animated swing');
-});
+// $aboutVerticalTitle.mouseover(function() {
+//   $aboutVerticalTitle.toggleClass('animated swing');
+// });
 $aboutVerticalTitle.on('click', function() {
   $oBall.addClass('animated hinge');
 });
 $aboutSubHeading.mouseover(function() {
   $aboutSubHeading.toggleClass('animated swing');
+});
+$(function(){
+    $oBall.click(function(evt){
+        var link = $(this).attr("href");
+        setTimeout(function() {
+            window.location.href = 'about.html';
+        }, 2000);
+    });
+    $aboutVerticalTitle.click(function(evt){
+        var link = $(this).attr("href");
+        setTimeout(function() {
+            window.location.href = 'about.html';
+        }, 2000);
+    });
 });
 
 $mBall.mouseover(function() {
@@ -38,14 +52,28 @@ $mBall.mouseover(function() {
 $mBall.on('click', function() {
   $mBall.addClass('animated hinge');
 });
-$resumeVerticalTitle.mouseover(function() {
-  $resumeVerticalTitle.toggleClass('animated swing');
-});
+// $resumeVerticalTitle.mouseover(function() {
+//   $resumeVerticalTitle.toggleClass('animated swing');
+// });
 $resumeVerticalTitle.on('click', function() {
   $mBall.addClass('animated hinge');
 });
 $resumeSubHeading.mouseover(function() {
   $resumeSubHeading.toggleClass('animated swing');
+});
+$(function(){
+    $mBall.click(function(evt){
+        var link = $(this).attr("href");
+        setTimeout(function() {
+            window.location.href = 'resume.html';
+        }, 1800);
+    });
+    $resumeVerticalTitle.click(function(evt){
+        var link = $(this).attr("href");
+        setTimeout(function() {
+            window.location.href = 'resume.html';
+        }, 1800);
+    });
 });
 
 $aBall.mouseover(function() {
@@ -54,14 +82,28 @@ $aBall.mouseover(function() {
 $aBall.on('click', function() {
   $aBall.addClass('animated hinge');
 });
-$projectsVerticalTitle.mouseover(function() {
-  $projectsVerticalTitle.toggleClass('animated swing');
-});
+// $projectsVerticalTitle.mouseover(function() {
+//   $projectsVerticalTitle.toggleClass('animated swing');
+// });
 $projectsVerticalTitle.on('click', function() {
   $aBall.addClass('animated hinge');
 });
 $projectsSubHeading.mouseover(function() {
   $projectsSubHeading.toggleClass('animated swing');
+});
+$(function(){
+    $aBall.click(function(evt){
+        var link = $(this).attr("href");
+        setTimeout(function() {
+            window.location.href = 'projects.html';
+        }, 1900);
+    });
+    $projectsVerticalTitle.click(function(evt){
+        var link = $(this).attr("href");
+        setTimeout(function() {
+            window.location.href = 'projects.html';
+        }, 1900);
+    });
 });
 
 $rBall.mouseover(function() {
@@ -70,21 +112,26 @@ $rBall.mouseover(function() {
 $rBall.on('click', function() {
   $rBall.addClass('animated hinge');
 });
-$socialVerticalTitle.mouseover(function() {
-  $socialVerticalTitle.toggleClass('animated swing');
-});
+// $socialVerticalTitle.mouseover(function() {
+//   $socialVerticalTitle.toggleClass('animated swing');
+// });
 $socialVerticalTitle.on('click', function() {
   $rBall.addClass('animated hinge');
 });
 $socialSubHeading.mouseover(function() {
   $socialSubHeading.toggleClass('animated swing');
 });
-
-
-$aboutVerticalTitle.click(function(){
-    var self = $(this);
-    self.next().slideToggle(2000, function() {
-        window.location.href = self.attr('about.html'); // go to href after the slide animation completes
+$(function(){
+    $rBall.click(function(evt){
+        var link = $(this).attr("href");
+        setTimeout(function() {
+            window.location.href = 'social.html';
+        }, 1900);
     });
-    return false; // And also make sure you return false from your click handler.
+    $socialVerticalTitle.click(function(evt){
+        var link = $(this).attr("href");
+        setTimeout(function() {
+            window.location.href = 'social.html';
+        }, 1900);
+    });
 });

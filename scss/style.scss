@@ -3,7 +3,130 @@
 @import 'fancy-animations';
 @import 'index';
 @import 'about';
+@import 'resume';
+@import 'projects';
+@import 'social';
 
 a {
   text-decoration: none;
+}
+
+// About page
+
+#about-background {
+  background-image: url('/images/cloud-seph.jpg');
+  background-repeat: repeat-y;
+  background-size: 40%;
+
+}
+
+.about-section {
+  overflow: auto;
+}
+
+.left {
+  float: left;
+  width: 46.5%;
+  height: 250px;
+  outline: 1px solid black;
+  margin-left: 7%;
+}
+
+.right {
+  float:right;
+  width: 46.5%;
+  height: 250px;
+  outline: 1px solid black;
+
+}
+
+.about-title-subsection {
+  background-color: #DADADA;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3em;
+  text-align: center;
+  line-height: 5.5em;
+  color: #696969;
+  text-decoration: underline;
+}
+
+// .my-pic-subsection {
+//   background-image: url("/images/omar.jpg");
+//   background-size: contain;
+// }
+
+.my-pic {
+  z-index: -10;
+}
+
+.adjective-list-1 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #696969;
+  color: #123963;
+  line-height: 1.5em;
+}
+
+.adjective-list-2 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #123963;
+  line-height: 1.5em;
+  color: #9DB7C0;
+}
+
+.adjective-list-3 {
+  z-index: 10;
+  background-color: #9DB7C0;
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.adjective-list-4 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #9DB7C0;
+  line-height: 1.5em;
+  color: #DADADA;
+}
+
+.about-section-back-button {
+  background-color: #DADADA;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3em;
+  text-align: center;
+  line-height: 5.5em;
+
+}
+
+.about-section-back-button a {
+  color: #696969;
+}
+
+.about-home-link:hover {
+  color: #1C00E5;
+}
+
+// resume section
+
+#resume-background {
+  background-image: url('/images/cowboy-bebop2.jpg');
+  background-repeat: repeat-y;
+}
+
+#projects-background {
+  background-image: url('/images/game-of-thrones.jpg');
+  background-repeat: repeat-y;
+  background-size: 40%;
+}
+
+#social-background {
+  background-image: url('/images/bruce-lee2.jpg');
+  background-repeat: repeat-y;
+  background-size: 40%;
 }

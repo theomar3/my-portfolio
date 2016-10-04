@@ -2600,15 +2600,8 @@ a {
   color: #696969; }
 
 .home-icon {
-  width: 40%;
-  opacity: 0;
-  transition: opacity 1s; }
-
-.about-home-link:hover + img {
-  opacity: 1; }
-
-.about-home-link:hover {
-  display: none; }
+  max-width: 150px;
+  display: auto; }
 
 #resume-background {
   background-image: url("/images/cowboy-bebop2.jpg");

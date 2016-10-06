@@ -11,6 +11,24 @@ a {
   text-decoration: none;
 }
 
+.back-button-section {
+  background-color: #DADADA;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3em;
+  text-align: center;
+  line-height: 5.5em;
+
+}
+
+
+.back-button-section a {
+  color: #696969;
+}
+
+.home-icon {
+  max-width: 150px;
+}
+
 // About page
 
 
@@ -49,11 +67,6 @@ a {
   color: #696969;
   text-decoration: underline;
 }
-
-// .my-pic-subsection {
-//   background-image: url("/images/omar.jpg");
-//   background-size: contain;
-// }
 
 .my-pic {
   z-index: -10;
@@ -96,47 +109,283 @@ a {
   color: #DADADA;
 }
 
-.about-section-back-button {
-  background-color: #DADADA;
-  font-family: 'Architects Daughter', cursive;
-  font-size: 3em;
-  text-align: center;
-  line-height: 5.5em;
-
-}
-
-
-.about-section-back-button a {
-  color: #696969;
-}
-
-
-.home-icon {
-  max-width: 150px;
-  display: auto;
-}
-
-
-
-
-
-
 
 // resume section
 
 #resume-background {
   background-image: url('/images/cowboy-bebop2.jpg');
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
+
+.resume-section {
+  overflow: auto;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 250px;
+  outline: 1px solid black;
+}
+
+.right {
+  float:right;
+  width: 50%;
+  height: 250px;
+  outline: 1px solid black;
+
+}
+
+.resume-title-subsection {
+  background-color: #DADADA;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3em;
+  text-align: center;
+  line-height: 5.5em;
+  color: #696969;
+  text-decoration: underline;
+}
+
+
+.resume-download-subsection {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #696969;
+  color: #A5142D;
+  line-height: 5.5em;
+}
+
+.skill-set-1 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #A5142D;
+  line-height: 1.5em;
+  color: #E61C3F;
+}
+
+.skill-set-2 {
+  background-color: #E61C3F;
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.skill-set-3 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #E61C3F;
+  line-height: 1.5em;
+  color: #DADADA;
+}
+
+
+
+
+// projects section
+
 
 #projects-background {
   background-image: url('/images/game-of-thrones.jpg');
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   background-size: 40%;
 }
 
+.projects-section {
+  overflow: auto;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 250px;
+  outline: 1px solid black;
+}
+
+.right {
+  float:right;
+  width: 50%;
+  height: 250px;
+  outline: 1px solid black;
+
+}
+
+.projects-title-subsection {
+  background-color: #DADADA;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3em;
+  text-align: center;
+  line-height: 5.5em;
+  color: #696969;
+  text-decoration: underline;
+}
+
+
+.git-link-subsection {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #696969;
+  color: #580152;
+  line-height: 5.5em;
+}
+
+.git-link-subsection a {
+  color:#580152;
+}
+
+.git-icon {
+  max-width: 150px;
+}
+
+.code-camp-pic {
+  max-width: 90%;
+}
+
+.dfw-code-camp-subsection {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #580152;
+  line-height: 5.5em;
+  color: #C154BA;
+}
+
+.dfw-code-camp-subsection a {
+  color: #C154BA;
+
+}
+
+.typefight-pic {
+  max-width: 95%;
+}
+
+.type-fight-subsection {
+  background-color: #C154BA;
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  line-height: 5.5em;
+}
+
+.type-fight-subsection a {
+  color: black;
+}
+
+.getpunch-subsection {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #C154BA;
+  line-height: 5.5em;
+  color: #DADADA;
+}
+
+.getpunch-subsection a {
+  color: #DADADA;
+}
+
+
+
+
+
+// social section
+
 #social-background {
   background-image: url('/images/bruce-lee2.jpg');
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   background-size: 40%;
+}
+
+.social-section {
+  overflow: auto;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 250px;
+  outline: 1px solid black;
+}
+
+.right {
+  float:right;
+  width: 50%;
+  height: 250px;
+  outline: 1px solid black;
+
+}
+
+.social-title-subsection {
+  background-color: #DADADA;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3em;
+  text-align: center;
+  line-height: 5.5em;
+  color: #696969;
+  text-decoration: underline;
+}
+
+
+.youtube-link-subsection {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #696969;
+  color: #1C4926;
+  line-height: 5.5em;
+}
+
+.youtube-link-subsection a {
+  color:#1C4926;
+}
+
+.youtube-icon {
+  max-width: 350px;
+}
+
+.blog-subsection {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #1C4926;
+  line-height: 5.5em;
+  color: #6D8C4D;
+}
+
+.blog-subsection a {
+  color: #6D8C4D;
+}
+
+.wordpress-icon {
+  max-width: 350px;
+}
+
+
+.linkedin-subsection {
+  background-color: #6D8C4D;
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  line-height: 5.5em;
+}
+
+.linkedin-subsection a {
+  color: black;
+}
+
+.email-subsection {
+  font-family: 'Francois One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #6D8C4D;
+  line-height: 5.5em;
+  color: #DADADA;
+}
+
+.email-subsection a {
+  color: #DADADA;
 }

@@ -61,7 +61,6 @@ body {
   float: left; }
 
 .col {
-  outline: 1px solid blue;
   min-height: 40px;
   margin-left: 2.4%;
   margin-right: 2.4%;
@@ -2520,6 +2519,34 @@ body {
 #homepage-title {
   font-size: 2em;
   font-family: 'Anton', sans-serif; }
+
+#homepage-title-responsive {
+  display: none; }
+
+@media (max-width: 768px) {
+  .vertical-titles {
+    writing-mode: initial;
+    border: 1px solid black;
+    margin-left: 0%;
+    text-align: center; }
+  .solid-horizontal-rope {
+    border-top: 3px solid black;
+    margin-top: -40px; }
+  .ball {
+    display: none; }
+  #homepage-title {
+    display: none; }
+  #homepage-title-responsive {
+    font-size: 2em;
+    font-family: 'Anton', sans-serif;
+    display: block;
+    text-align: center; }
+  .sub-heading.social {
+    margin-bottom: -60px; }
+  .title-and-social-row {
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    width: 100%; } }
 
 a {
   text-decoration: none; }

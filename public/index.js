@@ -2,19 +2,6 @@ var $oBall = $('.ball.o');
 var $aboutVerticalTitle = $('.vertical-titles.about');
 var $aboutSubHeading= $('.sub-heading.about');
 
-var $mBall = $('.ball.m');
-var $resumeVerticalTitle = $('.vertical-titles.resume');
-var $resumeSubHeading= $('.sub-heading.resume');
-
-var $aBall = $('.ball.a');
-var $projectsVerticalTitle = $('.vertical-titles.projects');
-var $projectsSubHeading= $('.sub-heading.projects');
-
-var $rBall = $('.ball.r');
-var $socialVerticalTitle = $('.vertical-titles.social');
-var $socialSubHeading= $('.sub-heading.social');
-
-
 
 $oBall.mouseover(function() {
   $oBall.toggleClass('animated swing');
@@ -46,6 +33,10 @@ $(function(){
     });
 });
 
+var $mBall = $('.ball.m');
+var $resumeVerticalTitle = $('.vertical-titles.resume');
+var $resumeSubHeading= $('.sub-heading.resume');
+
 $mBall.mouseover(function() {
   $mBall.toggleClass('animated swing');
 });
@@ -75,6 +66,10 @@ $(function(){
         }, 1800);
     });
 });
+
+var $aBall = $('.ball.a');
+var $projectsVerticalTitle = $('.vertical-titles.projects');
+var $projectsSubHeading= $('.sub-heading.projects');
 
 $aBall.mouseover(function() {
   $aBall.toggleClass('animated swing');
@@ -106,6 +101,10 @@ $(function(){
     });
 });
 
+var $rBall = $('.ball.r');
+var $socialVerticalTitle = $('.vertical-titles.social');
+var $socialSubHeading= $('.sub-heading.social');
+
 $rBall.mouseover(function() {
   $rBall.toggleClass('animated swing');
 });
@@ -135,3 +134,35 @@ $(function(){
         }, 1900);
     });
 });
+
+var $width = $(window).width();
+
+if($width < 768) {
+  $(function(){
+      $aboutVerticalTitle.click(function(evt){
+          var link = $(this).attr("href");
+          setTimeout(function() {
+              window.location.href = 'about.html';
+          }, 0);
+      });
+      $resumeVerticalTitle.click(function(evt){
+          var link = $(this).attr("href");
+          setTimeout(function() {
+              window.location.href = 'resume.html';
+          }, 0);
+      });
+      $projectsVerticalTitle.click(function(evt){
+          var link = $(this).attr("href");
+          setTimeout(function() {
+              window.location.href = 'projects.html';
+          }, 0);
+      });
+      $socialVerticalTitle.click(function(evt){
+          var link = $(this).attr("href");
+          setTimeout(function() {
+              window.location.href = 'social.html';
+          }, 0);
+      });
+  });
+
+}

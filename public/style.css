@@ -2514,24 +2514,45 @@ body {
   cursor: pointer; }
 
 .title-and-social-row {
-  padding: 450px 20px 20px 20px; }
+  padding: 350px 20px 5px 20px; }
+
+.small-about-row {
+  padding: 0px 20px 20px 20px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.5em; }
+
+.social-media-links {
+  padding: 3px; }
 
 #homepage-title {
+  display: inline-block;
   font-size: 2em;
-  font-family: 'Anton', sans-serif; }
+  font-family: 'Anton', sans-serif;
+  padding-right: 50%; }
 
 #homepage-title-responsive {
   display: none; }
+
+.title-one {
+  display: none;
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.5em;
+  text-align: center; }
+
+@media (max-width: 1300px) {
+  #homepage-title {
+    display: block; } }
 
 @media (max-width: 768px) {
   .vertical-titles {
     writing-mode: initial;
     border: 1px solid black;
     margin-left: 0%;
+    margin-top: 40px;
     text-align: center; }
   .solid-horizontal-rope {
     border-top: 3px solid black;
-    margin-top: -40px; }
+    margin-top: -30px; }
   .ball {
     display: none; }
   #homepage-title {
@@ -2544,12 +2565,26 @@ body {
   .sub-heading.social {
     margin-bottom: -60px; }
   .title-and-social-row {
-    padding: 0px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     text-align: center;
-    width: 100%; } }
+    width: 100%; }
+  .title-one {
+    display: block; }
+  .small-about-row {
+    display: none; } }
 
 a {
   text-decoration: none; }
+
+.left {
+  float: left;
+  width: 50%;
+  height: 250px; }
+
+.right {
+  float: right;
+  width: 50%;
+  height: 250px; }
 
 .back-button-section {
   background-color: #DADADA;
@@ -2571,18 +2606,6 @@ a {
 
 .about-section {
   overflow: auto; }
-
-.left {
-  float: left;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black; }
-
-.right {
-  float: right;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black; }
 
 .about-title-subsection {
   background-color: #DADADA;
@@ -2636,18 +2659,6 @@ a {
 .resume-section {
   overflow: auto; }
 
-.left {
-  float: left;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black; }
-
-.right {
-  float: right;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black; }
-
 .resume-title-subsection {
   background-color: #DADADA;
   font-family: 'Architects Daughter', cursive;
@@ -2695,18 +2706,6 @@ a {
 
 .projects-section {
   overflow: auto; }
-
-.left {
-  float: left;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black; }
-
-.right {
-  float: right;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black; }
 
 .projects-title-subsection {
   background-color: #DADADA;
@@ -2776,18 +2775,6 @@ a {
 
 .social-section {
   overflow: auto; }
-
-.left {
-  float: left;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black; }
-
-.right {
-  float: right;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black; }
 
 .social-title-subsection {
   background-color: #DADADA;

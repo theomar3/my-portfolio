@@ -11,6 +11,21 @@ a {
   text-decoration: none;
 }
 
+.left {
+  float: left;
+  width: 50%;
+  height: 250px;
+  // outline: 1px solid black;
+}
+
+.right {
+  float:right;
+  width: 50%;
+  height: 250px;
+  // outline: 1px solid black;
+
+}
+
 .back-button-section {
   background-color: #DADADA;
   font-family: 'Architects Daughter', cursive;
@@ -20,7 +35,6 @@ a {
 
 }
 
-
 .back-button-section a {
   color: #696969;
 }
@@ -28,6 +42,8 @@ a {
 .home-icon {
   max-width: 150px;
 }
+
+
 
 // About page
 
@@ -43,20 +59,6 @@ a {
   overflow: auto;
 }
 
-.left {
-  float: left;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black;
-}
-
-.right {
-  float:right;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black;
-
-}
 
 .about-title-subsection {
   background-color: #DADADA;
@@ -121,20 +123,6 @@ a {
   overflow: auto;
 }
 
-.left {
-  float: left;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black;
-}
-
-.right {
-  float:right;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black;
-
-}
 
 .resume-title-subsection {
   background-color: #DADADA;
@@ -198,20 +186,6 @@ a {
   overflow: auto;
 }
 
-.left {
-  float: left;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black;
-}
-
-.right {
-  float:right;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black;
-
-}
 
 .projects-title-subsection {
   background-color: #DADADA;
@@ -304,20 +278,6 @@ a {
   overflow: auto;
 }
 
-.left {
-  float: left;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black;
-}
-
-.right {
-  float:right;
-  width: 50%;
-  height: 250px;
-  outline: 1px solid black;
-
-}
 
 .social-title-subsection {
   background-color: #DADADA;

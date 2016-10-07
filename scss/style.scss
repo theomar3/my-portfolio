@@ -1,6 +1,8 @@
 @import 'reset';
 @import 'css-grid';
 @import 'fancy-animations';
+@import 'custom-alert';
+@import 'sweet-alert';
 @import 'index';
 @import 'about';
 @import 'resume';
@@ -8,8 +10,18 @@
 @import 'social';
 
 
-a {
+.main-grid {
+  background-color:#f0f8ff ;
+}
+
+.list-1 a {
   text-decoration: none;
+  color: #123963;
+}
+
+.list-2 a {
+  text-decoration: none;
+  color: #9DB7C0;
 }
 
 
@@ -26,29 +38,12 @@ a {
   color: #DADADA;
 }
 
-.home-icon {
-  max-width: 150px;
-}
-
-
-
-// About page
-
-body {
-  background-color:#f0f8ff ;
-}
-
-
-.my-pic {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .my-pic-row {
   padding-bottom: 0px;
 }
 
-.about-title-row {
+.title-row {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #DADADA;
@@ -57,15 +52,35 @@ body {
   text-align: center;
   line-height: 5.5em;
   color: #696969;
-  text-decoration: underline;
+  cursor: pointer;
 }
 
-.adjective-row{
+.resume {
+  line-height: 1.5em;
+}
+
+.resume-download {
+  font-size: .5em;
+  font-family: 'Francois One', sans-serif;
+  color: blue;
+
+}
+
+.title {
+  text-decoration: underline;
+
+}
+
+.main-row{
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-.adjective-list-1 {
+.hidden {
+  display: none;
+}
+
+.list-1 {
   font-family: 'Francois One', sans-serif;
   font-size: 3em;
   text-align: center;
@@ -74,7 +89,7 @@ body {
   line-height: 1.5em;
 }
 
-.adjective-list-2 {
+.list-2 {
   font-family: 'Francois One', sans-serif;
   font-size: 3em;
   text-align: center;
@@ -84,7 +99,7 @@ body {
 
 }
 
-.adjective-list-3 {
+.list-3 {
   background-color: #123963;
   color: #9DB7C0;
   font-family: 'Francois One', sans-serif;
@@ -93,7 +108,7 @@ body {
   line-height: 1.5em;
 }
 
-.adjective-list-4 {
+.list-4 {
   font-family: 'Francois One', sans-serif;
   font-size: 3em;
   text-align: center;
@@ -102,63 +117,21 @@ body {
   color: #123963;
 }
 
+.home-icon {
+  max-width: 350px;
+}
+
+.my-pic {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.git-icon {
+  max-width: 350px;
+}
 
 
-// // resume section
-//
-//
-// .resume-section {
-//   overflow: auto;
-// }
-//
-//
-// .resume-title-subsection {
-//   background-color: #DADADA;
-//   font-family: 'Architects Daughter', cursive;
-//   font-size: 3em;
-//   text-align: center;
-//   line-height: 5.5em;
-//   color: #696969;
-//   text-decoration: underline;
-// }
-//
-//
-// .resume-download-subsection {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #696969;
-//   color: #A5142D;
-//   line-height: 5.5em;
-// }
-//
-// .skill-set-1 {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #A5142D;
-//   line-height: 1.5em;
-//   color: #E61C3F;
-// }
-//
-// .skill-set-2 {
-//   background-color: #E61C3F;
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   line-height: 1.5em;
-// }
-//
-// .skill-set-3 {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #E61C3F;
-//   line-height: 1.5em;
-//   color: #DADADA;
-// }
-//
-//
+
 //
 //
 // // projects section

@@ -1,8 +1,16 @@
-var $homeIcon = $('.home-icon');
+var $titleRow = $('.title-row');
+var $mainRow = $('.main-row');
+
+
+$titleRow.on('click', function() {
+  $mainRow.toggleClass('hidden');
+})
 
 
 // about section
 var $aboutHomeText = $('.about-home-text');
+
+
 
 
 $aboutHomeText.hover(function() {
@@ -29,14 +37,8 @@ var $myGitText = $('.my-git-text');
 var $codeCampText = $('.code-camp-text');
 var $typefightText = $('.typefight-text');
 
-var $gitIcon = $('.git-icon');
-var $codeCampPic = $('.code-camp-pic');
-var $typefightPic = $('.type-fight-pic');
-
-
-
 $myGitText.hover(function() {
-  $myGitText.html("<img class='git-icon'src='/images/github-big.png'/>")
+  $myGitText.html("<img class='git-icon'src='/images/github-link.png'/>")
 },
 function() {
   $myGitText.html('Git it?');
@@ -69,10 +71,6 @@ var $myBlogText = $('.blog-text');
 var $myLinkedinText = $('.linkedin-text');
 var $emailText = $('.email-me-text');
 var $socialHomeTexxt = $('.social-home-text');
-
-var $youtubeIcon = $('.youtube-icon');
-var $wordpressIcon = $('.wordpress-icon');
-var $linkedinIcon = $('.linkedin-icon');
 
 $myYoutubeText.hover(function() {
   $myYoutubeText.html("<img class='youtube-icon'src='/images/youtube.png'/>")

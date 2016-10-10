@@ -3676,6 +3676,14 @@ body.stop-scrolling {
   text-decoration: none;
   color: #9DB7C0; }
 
+.list-3 a {
+  text-decoration: none;
+  color: #9DB7C0; }
+
+.list-4 a {
+  text-decoration: none;
+  color: #123963; }
+
 .back-button-row {
   background-color: #696969;
   font-family: 'Architects Daughter', cursive;
@@ -3759,3 +3767,13 @@ body.stop-scrolling {
 
 .git-icon {
   max-width: 350px; }
+
+@media (max-width: 500px) {
+  .title-row {
+    font-size: 4em; }
+  .home-icon {
+    max-width: 250px; } }
+
+@media (max-width: 420px) {
+  .title-row {
+    font-size: 3.5em; } }

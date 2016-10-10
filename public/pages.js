@@ -37,25 +37,63 @@ var $myGitText = $('.my-git-text');
 var $codeCampText = $('.code-camp-text');
 var $typefightText = $('.typefight-text');
 
-$myGitText.hover(function() {
-  $myGitText.html("<img class='git-icon'src='/images/github-link.png'/>")
-},
-function() {
-  $myGitText.html('Git it?');
+
+$('.github-link').click(function(e) {
+  e.preventDefault();
+  var link = $(this).attr('href');
+
+  swal({
+    title: 'Visit my GitHub Page?',
+    imageUrl: '/images/github-link.png',
+    showCancelButton: true
+  },
+  function() {
+    window.location.href = link;
+  });
 });
 
-$codeCampText.hover(function() {
-  $codeCampText.html("<img class='code-camp-pic'src='/images/code-camp.jpg'/>")
-},
-function() {
-  $codeCampText.html('Fully responsive online site');
+$('.codecamp-link').click(function(e) {
+  e.preventDefault();
+  var link = $(this).attr('href');
+
+  swal({
+    title: 'Visit fully responsive live website I did?',
+    imageUrl: '/images/code-camp.jpg',
+    imageSize: "500x300",
+    showCancelButton: true
+  },
+  function() {
+    window.location.href = link;
+  });
 });
 
-$typefightText.hover(function() {
-  $typefightText.html("<img class='typefight-pic'src='/images/typefight.jpg'/>")
-},
-function() {
-  $typefightText.html('Interactive Javascript game');
+$('.typefight-link').click(function(e) {
+  e.preventDefault();
+  var link = $(this).attr('href');
+
+  swal({
+    title: 'Visit my interactive Javascript game?',
+    imageUrl: '/images/typefight.jpg',
+    imageSize: "450x300",
+    showCancelButton: true
+  },
+  function() {
+    window.location.href = link;
+  });
+});
+
+$('.getpunch-link').click(function(e) {
+  e.preventDefault();
+  var link = $(this).attr('href');
+
+  swal({
+    title: "Visit GetPunch's site which I helped create?" ,
+    imageUrl: '/images/getpunch.png',
+    showCancelButton: true
+  },
+  function() {
+    window.location.href = link;
+  });
 });
 
 $projectsHomeText.hover(function() {
@@ -65,6 +103,8 @@ function() {
   $projectsHomeText.html('Place of love, hope, and dreams');
 });
 
+
+
 // social section
 var $myYoutubeText = $('.my-youtube-text');
 var $myBlogText = $('.blog-text');
@@ -72,33 +112,62 @@ var $myLinkedinText = $('.linkedin-text');
 var $emailText = $('.email-me-text');
 var $socialHomeTexxt = $('.social-home-text');
 
-$myYoutubeText.hover(function() {
-  $myYoutubeText.html("<img class='youtube-icon'src='/images/youtube.png'/>")
-},
-function() {
-  $myYoutubeText.html('Code Rookie YouTube Channel');
+$('.youtube-link').click(function(e) {
+  e.preventDefault();
+  var link = $(this).attr('href');
+
+  swal({
+    title: "Visit my YouTube Channel - Code Rookie?" ,
+    imageUrl: '/images/youtube-logo.png',
+    showCancelButton: true
+  },
+  function() {
+    window.location.href = link;
+  });
 });
 
-$myBlogText.hover(function() {
-  $myBlogText.html("<img class='wordpress-icon'src='/images/wordpress.png'/>")
-},
-function() {
-  $myBlogText.html('TeachertoCoder Wordpress');
+$('.wordpress-link').click(function(e) {
+  e.preventDefault();
+  var link = $(this).attr('href');
+
+  swal({
+    title: "Visit my blog - TeachertoCoder?" ,
+    imageUrl: '/images/wordpress.png',
+    showCancelButton: true
+  },
+  function() {
+    window.location.href = link;
+  });
 });
 
-$myLinkedinText.hover(function() {
-  $myLinkedinText.html("<img class='linkedin-icon' src='https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png' width='50'/>")
-},
-function() {
-  $myLinkedinText.html('Omar Ahmad LinkedIn');
+$('.linkedin-link').click(function(e) {
+  e.preventDefault();
+  var link = $(this).attr('href');
+
+  swal({
+    title: "Visit my LinkedIn page?" ,
+    imageUrl: '/images/linkedin-logo.png',
+    showCancelButton: true
+  },
+  function() {
+    window.location.href = link;
+  });
 });
 
-$emailText.hover(function() {
-  $emailText.html("<img src='/images/gmail.png' width='150'/>")
-},
-function() {
-  $emailText.html('Email me anytime');
+$('.email-link').click(function(e) {
+  e.preventDefault();
+  var link = $(this).attr('href');
+
+  swal({
+    title: "Email me?" ,
+    imageUrl: '/images/gmail.png',
+    showCancelButton: true
+  },
+  function() {
+    window.location.href = link;
+  });
 });
+
 
 $socialHomeTexxt.hover(function() {
   $socialHomeTexxt.html("<img class='home-icon'src='/images/home-icon.png'/>")

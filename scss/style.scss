@@ -24,6 +24,15 @@
   color: #9DB7C0;
 }
 
+.list-3 a {
+  text-decoration: none;
+  color: #9DB7C0;
+}
+
+.list-4 a {
+  text-decoration: none;
+  color: #123963;
+}
 
 .back-button-row {
   background-color: #696969;
@@ -131,171 +140,22 @@
 }
 
 
+// Media Queries
 
-//
-//
-// // projects section
-//
-//
-// .projects-section {
-//   overflow: auto;
-// }
-//
-//
-// .projects-title-subsection {
-//   background-color: #DADADA;
-//   font-family: 'Architects Daughter', cursive;
-//   font-size: 3em;
-//   text-align: center;
-//   line-height: 5.5em;
-//   color: #696969;
-//   text-decoration: underline;
-// }
-//
-//
-// .git-link-subsection {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #696969;
-//   color: #580152;
-//   line-height: 5.5em;
-// }
-//
-// .git-link-subsection a {
-//   color:#580152;
-// }
-//
-// .git-icon {
-//   max-width: 150px;
-// }
-//
-// .code-camp-pic {
-//   max-width: 90%;
-// }
-//
-// .dfw-code-camp-subsection {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #580152;
-//   line-height: 5.5em;
-//   color: #C154BA;
-// }
-//
-// .dfw-code-camp-subsection a {
-//   color: #C154BA;
-//
-// }
-//
-// .typefight-pic {
-//   max-width: 95%;
-// }
-//
-// .type-fight-subsection {
-//   background-color: #C154BA;
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   line-height: 5.5em;
-// }
-//
-// .type-fight-subsection a {
-//   color: black;
-// }
-//
-// .getpunch-subsection {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #C154BA;
-//   line-height: 5.5em;
-//   color: #DADADA;
-// }
-//
-// .getpunch-subsection a {
-//   color: #DADADA;
-// }
-//
-//
-//
-//
-//
-// // social section
-//
-//
-// .social-section {
-//   overflow: auto;
-// }
-//
-//
-// .social-title-subsection {
-//   background-color: #DADADA;
-//   font-family: 'Architects Daughter', cursive;
-//   font-size: 3em;
-//   text-align: center;
-//   line-height: 5.5em;
-//   color: #696969;
-//   text-decoration: underline;
-// }
-//
-//
-// .youtube-link-subsection {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #696969;
-//   color: #1C4926;
-//   line-height: 5.5em;
-// }
-//
-// .youtube-link-subsection a {
-//   color:#1C4926;
-// }
-//
-// .youtube-icon {
-//   max-width: 350px;
-// }
-//
-// .blog-subsection {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #1C4926;
-//   line-height: 5.5em;
-//   color: #6D8C4D;
-// }
-//
-// .blog-subsection a {
-//   color: #6D8C4D;
-// }
-//
-// .wordpress-icon {
-//   max-width: 350px;
-// }
-//
-//
-// .linkedin-subsection {
-//   background-color: #6D8C4D;
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   line-height: 5.5em;
-// }
-//
-// .linkedin-subsection a {
-//   color: black;
-// }
-//
-// .email-subsection {
-//   font-family: 'Francois One', sans-serif;
-//   font-size: 3em;
-//   text-align: center;
-//   background-color: #6D8C4D;
-//   line-height: 5.5em;
-//   color: #DADADA;
-// }
-//
-// .email-subsection a {
-//   color: #DADADA;
-// }
+@media (max-width:500px) {
+  .title-row {
+    font-size: 4em;
+  }
+
+  .home-icon {
+    max-width: 250px;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .title-row {
+    font-size: 3.5em;
+  }
+
+}

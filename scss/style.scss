@@ -142,6 +142,18 @@
 
 // Media Queries
 
+@media (max-width: 750px) {
+  .projects {
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 580px) {
+  .back-button-row {
+    line-height: 1.5em;
+  }
+}
+
 @media (max-width:500px) {
   .title-row {
     font-size: 4em;
@@ -151,11 +163,37 @@
     max-width: 250px;
   }
 
+  .list-1,.list-2,.list-3,.list-4 {
+    font-size: 2em;
+  }
+
 }
 
 @media (max-width: 420px) {
   .title-row {
     font-size: 3.5em;
+  }
+
+}
+
+@media (max-width: 380px) {
+  .title-row {
+    font-size: 3em;
+  }
+
+  .list-1,.list-2,.list-3,.list-4 {
+    font-size: 1.5em;
+  }
+
+  .back-button-row {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (max-width: 340px) {
+  .title-row {
+    font-size: 2.5em;
   }
 
 }

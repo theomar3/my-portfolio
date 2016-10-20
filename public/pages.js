@@ -25,6 +25,18 @@ function() {
 // resume section
 var $resumeHomeText = $('.resume-home-text');
 
+// $('.resume-link').click(function(e) {
+//   e.preventDefault();
+//   var link = $(this).attr('href');
+//
+//   swal({
+//     title: "View my resume?",
+//     showCancelButton: true;
+//   },
+//   function() {
+//     window.open(link, "_blank");
+//   });
+// });
 
 $resumeHomeText.hover(function() {
   $resumeHomeText.html("<img class='home-icon'src='/images/home-icon.png'/>")
@@ -50,7 +62,7 @@ $('.github-link').click(function(e) {
     showCancelButton: true
   },
   function() {
-    window.open.href = link;
+    window.open(link, "_blank");
   });
 });
 
@@ -66,7 +78,7 @@ $('.codecamp-link').click(function(e) {
     showCancelButton: true
   },
   function() {
-    window.location.href = link;
+    window.open(link, "_blank");
   });
 });
 
@@ -82,7 +94,7 @@ $('.typefight-link').click(function(e) {
     showCancelButton: true
   },
   function() {
-    window.location.href = link;
+    window.open(link, "_blank");
   });
 });
 
@@ -94,7 +106,7 @@ $('.tuo-link').click(function(e) {
     title: "Coming Soon! (In Progress)" ,
     // imageUrl: '/images/getpunch.png' pic coming soon,
     // imageSize: "300x300"
-    showCancelButton: true
+    showCancelButton: false
   },
   function() {
     window.location.href = link;
@@ -127,7 +139,7 @@ $('.youtube-link').click(function(e) {
     showCancelButton: true
   },
   function() {
-    window.location.href = link;
+    window.open(link,"_blank");
   });
 });
 
@@ -141,7 +153,7 @@ $('.wordpress-link').click(function(e) {
     showCancelButton: true
   },
   function() {
-    window.location.href = link;
+    window.open(link, "_blank");
   });
 });
 
@@ -155,7 +167,7 @@ $('.linkedin-link').click(function(e) {
     showCancelButton: true
   },
   function() {
-    window.location.href = link;
+    window.open(link, "_blank");
   });
 });
 

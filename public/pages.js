@@ -50,7 +50,7 @@ $('.github-link').click(function(e) {
     showCancelButton: true
   },
   function() {
-    window.location.href = link;
+    window.open.href = link;
   });
 });
 

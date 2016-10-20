@@ -6,6 +6,7 @@ var app = express(); //actually create an express app. We'll use this to configu
 app.use(express.static('public'));
 
 //gotta listen on a port to accept requests
-app.listen(3333, function() {
-  console.log('app listening on port 3333.')
+var port = process.env.PORT || 3333
+app.listen(port, function() {
+  console.log('app listening on port', port);
 });

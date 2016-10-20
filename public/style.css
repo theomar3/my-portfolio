@@ -61,7 +61,6 @@ body {
   float: left; }
 
 .col {
-  outline: 1px solid blue;
   min-height: 40px;
   margin-left: 2.4%;
   margin-right: 2.4%;
@@ -3759,7 +3758,7 @@ body.stop-scrolling {
   color: #123963; }
 
 .home-icon {
-  max-width: 350px; }
+  max-width: 150px; }
 
 .my-pic {
   width: 100%;
@@ -3780,7 +3779,7 @@ body.stop-scrolling {
   .title-row {
     font-size: 4em; }
   .home-icon {
-    max-width: 250px; }
+    max-width: 50px; }
   .list-1, .list-2, .list-3, .list-4 {
     font-size: 2em; } }
 

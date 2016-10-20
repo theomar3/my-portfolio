@@ -1,5 +1,7 @@
 var $titleRow = $('.title-row');
 var $mainRow = $('.main-row');
+var $width = $(window).width();
+
 
 
 $titleRow.on('click', function() {
@@ -52,20 +54,22 @@ $('.github-link').click(function(e) {
   });
 });
 
+
 $('.codecamp-link').click(function(e) {
   e.preventDefault();
   var link = $(this).attr('href');
 
   swal({
-    title: 'Visit fully responsive live website I did?',
+    title: 'Visit fully responsive live website I pair-programmed?',
     imageUrl: '/images/code-camp.jpg',
-    imageSize: "500x300",
+    imageSize: "300x100",
     showCancelButton: true
   },
   function() {
     window.location.href = link;
   });
 });
+
 
 $('.typefight-link').click(function(e) {
   e.preventDefault();
@@ -74,7 +78,7 @@ $('.typefight-link').click(function(e) {
   swal({
     title: 'Visit my interactive Javascript game?',
     imageUrl: '/images/typefight.jpg',
-    imageSize: "450x300",
+    imageSize: "280x100",
     showCancelButton: true
   },
   function() {
@@ -82,13 +86,14 @@ $('.typefight-link').click(function(e) {
   });
 });
 
-$('.getpunch-link').click(function(e) {
+$('.tuo-link').click(function(e) {
   e.preventDefault();
   var link = $(this).attr('href');
 
   swal({
-    title: "Visit GetPunch's site which I helped create?" ,
-    imageUrl: '/images/getpunch.png',
+    title: "Coming Soon! (In Progress)" ,
+    // imageUrl: '/images/getpunch.png' pic coming soon,
+    // imageSize: "300x300"
     showCancelButton: true
   },
   function() {
